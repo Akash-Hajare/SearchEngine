@@ -53,7 +53,7 @@ public class Search extends HttpServlet {
 
            PreparedStatement preparedStatement = connection.prepareStatement("Insert into history values (?,?)");
            preparedStatement.setString(1,keyword);
-           preparedStatement.setString(2, "http://localhost:8080/Search-Engine/Search?keyword="+keyword);
+           preparedStatement.setString(2, "https://searchengineproject.com/Search?keyword="+keyword);
            preparedStatement.executeUpdate();
 
 
