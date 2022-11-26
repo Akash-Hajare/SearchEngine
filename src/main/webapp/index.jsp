@@ -3,9 +3,9 @@
     <link rel = "stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <head><meta name="viewport" content="width=device-width, initial-scale=1"> </head>
+
      <div class="Title">
-     <h1 style="font-size: 70px">Search Engine</h1>
+     <h1 style="font-size: 60px">Search Engine</h1>
      </div>
     <div class= "searchEngine">
     <form action = "Search">
