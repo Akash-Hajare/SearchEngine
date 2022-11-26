@@ -5,6 +5,9 @@ body{
 .searchEngine{
     background-color: pink;
 }
+.title{
+    background-color: pink;
+}
 button{
    background-color: green;
    color:white;
