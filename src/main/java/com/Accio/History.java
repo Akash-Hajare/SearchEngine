@@ -23,6 +23,8 @@ public class History extends HttpServlet {
            while (resultSet.next()){
                HistoryResult historyResult = new HistoryResult();
                historyResult.setName(resultSet.getString("name"));
+              // historyResult.setLink(resultSet.getString("link"));
+              // historyResult.setLink(resultSet.getString("linkS"));
                historyResult.setLink(resultSet.getString("link"));
                results.add(historyResult);
            }

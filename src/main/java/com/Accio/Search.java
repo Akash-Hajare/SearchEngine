@@ -27,14 +27,6 @@ public class Search extends HttpServlet {
 
            //getting results from database
 
-           /*
-           select pagetitle , pagelink,
- (length(pagedata)-length(replace(pagedata,'java','')))
- /length('java')
- as countoccurence from pages
- order by countoccurence desc limit 30;
-
-            */
            ResultSet resultSet=connection.createStatement().executeQuery("select pagetitle , pagelink, (length(lower(pagedata))-length(replace(lower(pagedata), '"+keyword+"','')))/length('"+keyword+"') as countoccurence from pages order by countoccurence desc limit 30; ");
          //mark
            ArrayList<SearchResult> results=new ArrayList<SearchResult>();
@@ -45,15 +37,10 @@ public class Search extends HttpServlet {
                searchResult.setLink(resultSet.getString("pagelink"));
                results.add(searchResult);
            }
-           // for(SearchResult searchResult:results){
-           //    System.out.println(searchResult.getTitle()+" "+searchResult.getLink()+"\n");
-          // }
-
-
 
            PreparedStatement preparedStatement = connection.prepareStatement("Insert into history values (?,?)");
            preparedStatement.setString(1,keyword);
-           preparedStatement.setString(2, "https://searchengineproject.com/Search?keyword="+keyword);
+           preparedStatement.setString(2, "https://searchengineproject.herokuapp.com/Search?keyword="+keyword);
            preparedStatement.executeUpdate();
 
 
