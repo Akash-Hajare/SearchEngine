@@ -23,5 +23,10 @@
 - When a user enters a query or keywords, the search engine retrieve and present a list of relevant 30 results in table having name (title) and hyperlinks in response to the query.
 - It also stores users search query or keywords in history table. So that user can easily find history of keywords which they search in past.
 
+# Tech stack used 
+- Java Servlet : Used to handle the request obtained from the webserver, process the request, produce the response, then send a response back to the webserver. 
+- Maven : Maven is a build automation tool and a project management tool used primarily for Java-based projects. It provides a way to manage project dependencies, build and package projects, and generate reports on project status.
+- MYSQL: Database to store web crawling results ie Title and hyperlink and also search results.
+- Apache Tomcat : 
 
  
