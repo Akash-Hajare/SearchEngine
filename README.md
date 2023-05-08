@@ -19,6 +19,9 @@
  - Using Jsoup which is a Java library that provides a convenient way to parse HTML documents and extract data from them. Jsoup is a java html parser. It is a java library that is used to parse HTML document. Jsoup provides api to extract and manipulate data from URL or HTML file.  It allows developers to quickly and easily extract information such as text, links, and images from HTML documents.
  - Jsopu extract hyperlinks from html document. It stores title and hyperlink into database.
 
+# Serving search results
+- When a user enters a query or keywords, the search engine retrieve and present a list of relevant 30 results in table having name (title) and hyperlinks in response to the query.
+
 
 
  
