@@ -21,7 +21,7 @@
 
 # Serving search results
 - When a user enters a query or keywords, the search engine retrieve and present a list of relevant 30 results in table having name (title) and hyperlinks in response to the query.
-
+- It also stores users search query or keywords in history table. So that user can easily find history of keywords which they search in past.
 
 
  
