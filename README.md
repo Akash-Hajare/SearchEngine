@@ -2,9 +2,14 @@
 
 # Introduction
   - Search Engine project will able to provide users required information they are looking for online using keywords.
-  Introducing the three stages of Google Search
-Google Search works in three stages, and not all pages make it through each stage:
+  - Introducing the three stages of Search Engine project
 
-Crawling: Google downloads text, images, and videos from pages it found on the internet with automated programs called crawlers.
-Indexing: Google analyzes the text, images, and video files on the page, and stores the information in the Google index, which is a large database.
-Serving search results: When a user searches on Google, Google returns information that's relevant to the user's query.
+        1: Web Crawling
+        2: Indexing 
+        3: Serving search results
+   
+ # Web Crawling
+ - Web crawling is the process of systematically scanning and collecting data from websites on the internet. The process involves using web crawlers, to navigate through websites, following links and collecting data along the way.
+ - Web crawlers are automated programs that visit websites and extract information such as text, images, and links. They start by visiting a seed URL, which is typically a homepage or a list of URLs, and then follow links to other pages on the website. As they crawl through the website, they collect data from each page and store it in a databas.
+ - 
+ 
