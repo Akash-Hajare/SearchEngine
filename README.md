@@ -27,6 +27,7 @@
 - Java Servlet : Used to handle the request obtained from the webserver, process the request, produce the response, then send a response back to the webserver. 
 - Maven : Maven is a build automation tool and a project management tool used primarily for Java-based projects. It provides a way to manage project dependencies, build and package projects, and generate reports on project status.
 - MYSQL: Database to store web crawling results ie Title and hyperlink and also search results.
-- Apache Tomcat : 
+- Apache Tomcat 
+- Html css
 
  
