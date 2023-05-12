@@ -30,4 +30,10 @@
 - Apache Tomcat 
 - Html css
 
+# Front page
+![login](https://github.com/Akash-Hajare/SearchEngine/blob/master/screenshot/frontpage.png)
+
+# Results page
+![login](https://github.com/Akash-Hajare/SearchEngine/blob/master/screenshot/results.png)
+
  
